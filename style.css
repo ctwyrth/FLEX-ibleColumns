@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0 10px 0;
+}
+
+.col {
+    flex: 1 1 auto;
+    background-color: teal;
+    color: white;
+    padding: 10px;
+    margin-left: 15px;
+}
+
+.col-2 {
+    flex: 2 1 auto;
+    background-color: tomato;
+    color: white;
+    padding: 10px;
+    margin-left: 15px;
+}
+
+.col-3 {
+    flex: 3 1 auto;
+    background-color: wheat;
+    padding: 10px;
+    margin-left: 15px;
+}
+
+.col:first-child, .col-2:first-child {
+    margin-left: 0;
+}
